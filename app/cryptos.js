@@ -1,7 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -22,9 +21,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Live tracking <span>-&gt;</span>
+            Cryptos <span>-&gt;</span>
           </h2>
-          <p>Easily access the latest prices</p>
+          <p>Find in-depth information about Next.js features and API.</p>
         </a>
 
         <a
@@ -34,9 +33,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            News <span>-&gt;</span>
+            Learn <span>-&gt;</span>
           </h2>
-          <p>Stay informed with the latest news</p>
+          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
         </a>
 
         <a
@@ -46,12 +45,24 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Favorites <span>-&gt;</span>
+            Templates <span>-&gt;</span>
           </h2>
-          <p>Add your favorites cryptocurrencies to your watchlist</p>
+          <p>Explore starter templates for Next.js.</p>
         </a>
 
-      
+        <a
+          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            Deploy <span>-&gt;</span>
+          </h2>
+          <p>
+            Instantly deploy your Next.js site to a shareable URL with Vercel.
+          </p>
+        </a>
       </div>
     </main>
   );
