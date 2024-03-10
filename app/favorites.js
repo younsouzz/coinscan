@@ -8,7 +8,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Live tracking
+          Favorites
         </p>
       </div>
     </main>
